@@ -70,3 +70,4 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_INSTALL_PREFIX}/release)
      GIT_TAG 0.0.3)
 
 #add subdirectories for the rest of the project
+add_subdirectory(tools)
