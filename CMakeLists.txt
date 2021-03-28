@@ -55,13 +55,18 @@ set (CMAKE_CXX_FLAGS " -std=c++20 -fexceptions -pedantic -O -Wall -Weffc++ -peda
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/release)
 #include(${CMAKE_SOURCE_DIR}/include/)
 
+set(CMAKE_INSTALL_PREFIX ${CMAKE_INSTALL_PREFIX}/release)
+
 # example External project
-# ExternalProject_Add(eigen
-#     TMP_DIR ${CMAKE_BINARY_DIR}/eigen
-#     DOWNLOAD_DIR ${CMAKE_SOURCE_DIR}/external/
-#     STAMP_DIR ${CMAKE_SOURCE_DIR}/external/
-#     INSTALL_DIR ${CMAKE_SOURCE_DIR}/
-#     GIT_REPOSITORY https://gitlab.com/libeigen/eigen.git
-#     GIT_TAG tags/3.3.4)
+ ExternalProject_Add(manif
+     TMP_DIR ${CMAKE_SOURCE_DIR}/external/manif/misc
+     PREFIX  ${CMAKE_SOURCE_DIR}/external/manif/
+     BINARY_DIR ${CMAKE_SOURCE_DIR}/external/manif/build
+     DOWNLOAD_DIR ${CMAKE_SOURCE_DIR}/external/manif/misc/
+     STAMP_DIR ${CMAKE_SOURCE_DIR}/external/manif/stamp/
+     INSTALL_DIR ${CMAKE_SOURCE_DIR}/external/manif/install
+     CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=${CMAKE_SOURCE_DIR}/external/manif/install"
+     GIT_REPOSITORY git@github.com:artivis/manif.git
+     GIT_TAG 0.0.3)
 
 #add subdirectories for the rest of the project
