@@ -1,5 +1,3 @@
-find_package(manif PATHS ${CMAKE_SOURCE_DIR}/external/manif/install REQUIRED)
 
-if(${manif_IS_FOUND})
-    MESSAGE(Manif library found!)
-endif()
+add_executable(so3_example "so3_example.cc")
+add_dependencies(so3_example manif_external eigen_external)
