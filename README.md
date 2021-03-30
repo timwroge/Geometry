@@ -20,7 +20,7 @@ Every group satisfies these axioms:
 ### Axioms of a Group
 Closure under 'o' : <img src="doc/equations/5a832965338752a5f9cc9a020790496a.svg?invert_in_darkmode" align=middle width=69.08887919999998pt height=22.465723500000017pt/>
 
-Closure under <img src="doc/equations/698628683f7bc21c83461be0d468657d.svg?invert_in_darkmode" align=middle width=8.21920935pt height=14.15524440000002pt/> : <img src="doc/equations/226bc5682ee5b42b42e29421faff531d.svg?invert_in_darkmode" align=middle width=67.67106555pt height=22.465723500000017pt/>
+Closure under <img src="doc/equations/84df98c65d88c6adf15d4645ffa25e47.svg?invert_in_darkmode" align=middle width=13.08219659999999pt height=22.465723500000017pt/> : <img src="doc/equations/a3c1253a2f57595e69e1d047a0e16730.svg?invert_in_darkmode" align=middle width=93.83543894999998pt height=22.465723500000017pt/>
 
 Inverse <img src="doc/equations/2dc5e84a2ed629815c7979087387fb1f.svg?invert_in_darkmode" align=middle width=31.735235399999993pt height=26.76175259999998pt/>: <img src="doc/equations/48093084f92b527052113020ed503cf7.svg?invert_in_darkmode" align=middle width=131.96342444999996pt height=26.76175259999998pt/>
 
