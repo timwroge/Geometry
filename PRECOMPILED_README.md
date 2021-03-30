@@ -16,9 +16,14 @@ The core of group theory is based on this definition:
 
 Every group satisfies these axioms:
 
+
+### Axioms of a Group
 Closure under 'o' : $X o Y \in G$
+
 Closure under $\Epsilon$ : $\Epsilon o X = X o \Epsilon$
+
 Inverse $X^{-1}$: $X^{-1} o X = X o X^{-1}$
+
 Associativity: $(X o Y) o Z  = X o (Y o Z)  $
 
 where $o$ is the group action.
